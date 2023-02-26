@@ -9,3 +9,15 @@ Identifying the gene-phenotype associations (GPAs) can better improve the yield 
 * gene_name: The gene id and name
 ### code folder
 * 1_Construct GPP graph.ipynb and 2_data preprocessing to model.ipynb are the first two code need to implement before train model.
+* parameters.yml is the GNN parameters configuration file.
+#### compared methods folder
+The implementation of DNN, GBDT, GNB, LR, MLP, SGD, GAMEDA It is worthy to note that the DNN is implemented through Keras.
+### case study folder
+* *.ipynb: Do the case study
+### graphsaint folder
+It contains the pytorch code for RGPA-GCN.
+# Run the MDA-GKNN
+1. pip install -r RGPA-GCN_requirements.txt
+2. 1_Construct GPP graph.ipynb
+3. 2_data preprocessing to model.ipynb
+4. Train and test, for example: python -m graphsaint.pytorch_version.train_saveys --data_prefix gene_peco_data/task_Tpe__testlabel0_1knn_edge_fold0  --train_config code/parameters.yml > 20221020_Tpe_1knn_lr0.01_weight10_fold0.out
