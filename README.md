@@ -12,7 +12,7 @@ Identifying the gene-phenotype associations (GPAs) can better improve the yield 
 * known_associations: relationship pairs of genes and phenotypes
 * rgpagcn: It contains the Pytorch code for RGPA-GCN.
 ### code folder
-* 1_Similarity matrix calculation.ipynb, 2_Construct GPP graph.ipynb and 2_data preprocessing to model.ipynb are the first three codes that need to implement before training the model.
+* 1_Similarity matrix calculation.ipynb, 2_Construct GPP graph.ipynb and 3_data preprocessing to model.ipynb are the first three codes that need to implement before training the model.
 * parameters.yml is the GNN parameters configuration file.
 * compared methods: The implementation of DNN, GBDT, GNB, LR, MLP, SGD, and GAMEDA It is worth noting that the DNN is implemented through Keras.
 ### Case study folder
