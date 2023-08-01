@@ -22,3 +22,7 @@ Identifying the gene-phenotype associations (GPAs) can better improve the yield 
 2. 2_Construct GPP graph.ipynb
 3. 3_data preprocessing to model.ipynb
 4. Train and test, for example, python -m rgpagcn.pytorch_version.train_saveys --data_prefix gene_peco_data/task_Tpe__testlabel0_1knn_edge_fold0  --train_config code/parameters.yml > 20221020_Tpe_1knn_lr0.01_weight10_fold0.out
+# Citation
+Jiaxin Luo, Yujia Gao, Xiaosong Wang, Qian Zhou, and Zhenyu Yue*,RGPA-GCN: Graph Neural Networks for Rice Gene-Phenotype Association Prediction, 2023, Submitted.
+# Contact
+Please feel free to contact us if you need any help: zhenyuyue@ahau.edu.cn
