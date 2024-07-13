@@ -10,11 +10,11 @@ Identifying the gene-phenotype associations (GPAs) can better improve the yield 
 * peco_def: the phenotype id and name
 * GPmat: the Matrix of relationships between genes and phenotypes
 * known_associations: relationship pairs of genes and phenotypes
-* rgpagcn: It contains the Pytorch code for RGPA-GCN.
 ### code folder
 * 1_Similarity matrix calculation.ipynb, 2_Construct GPP graph.ipynb and 3_data preprocessing to model.ipynb are the first three codes that need to implement before training the model.
 * parameters.yml is the GNN parameters configuration file.
 * compared methods: The implementation of DNN, GBDT, GNB, LR, MLP, SGD, and GAMEDA It is worth noting that the DNN is implemented through Keras.
+### graphsaint folder: It contains the Pytorch code for RGPA-GCN.
 ### Case study folder
 * *.ipynb: Do the case study
 # Run the RGPA-GCN
